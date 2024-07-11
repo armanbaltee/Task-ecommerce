@@ -1,0 +1,311 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+.logo{
+    width: 70px;
+    height: 20px;
+}
+/* Header Styles */
+.top-bar {
+    background: #f4f4f4;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar p {
+    margin-left: 10px;
+}
+
+.contact-info span {
+    margin-left: 20px;
+}
+
+.navbar {
+    background: #faf8f8;
+    color: #262626;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+.navbar .brand {
+    float: left;
+    color: #252525;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.nav-links {
+    float: right;
+    list-style: none;
+    margin-right: 10px;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #252525;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-icons {
+    float: right;
+    margin-right: 20px;
+}
+
+.nav-icons .icon {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+
+.banner {
+    position: relative;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .banner img {
+    height: 60vh;
+    width: 100%;
+    vertical-align: middle;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .overlay h1 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 72px;
+    color: black;
+  }
+  .overlay p {
+    font-weight: 600;
+    font-size: 18px;
+    color: #646262;
+    letter-spacing: 2px;
+  }
+  
+  .overlay h1,
+  .overlay p {
+    margin: 0 0 10px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4c3b;
+    color: white;
+    text-decoration: none;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid #ff4c3b;
+  }
+
+/* Hero Section */
+.hero {
+    /* background-image: url("./Images/pexels-olly-974911.jpg"); */
+    /* background: #e2e2e2; */
+    padding: 50px 0;
+    text-align: center;
+    height: 500px;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+}
+
+.hero-content h2 {
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.hero-content button {
+    background: #ff4c3b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Promo Section */
+.promo {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+    background: #f9f9f9;
+}
+
+.promo-item {
+    text-align: center;
+}
+
+.promo-item img {
+    width: 100px;
+    height: auto;
+}
+
+.promo-item p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Top Collection Section */
+.top-collection {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.product-item {
+    text-align: center;
+}
+
+.product-item img {
+    width: 150px;
+    height: auto;
+}
+
+.product-item p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* Fashion Trends Section */
+.fashion-trends {
+    text-align: center;
+    padding: 50px 0;
+    background: #f4f4f4;
+}
+
+/* Special Products Section */
+.special-products {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.special-products .product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.special-products .product-item {
+    flex: 1 0 21%;
+    margin: 10px;
+}
+
+.special-products .product-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Instagram Section */
+.instagram {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.instagram-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.instagram-item {
+    flex: 1 0 21%;
+    margin: 10px;
+}
+
+.instagram-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Footer Styles */
+footer {
+    background: #f1f1f1;
+    color: #1a1a1a;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1 0 30%;
+    margin: 10px;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column ul li {
+    margin: 5px 0;
+}
+
+.footer-column ul li a {
+    color: #3f3f3f;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons span {
+    margin-left: 10px;
+    font-size: 18px;
+}
